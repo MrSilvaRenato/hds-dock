@@ -1,9 +1,9 @@
 <?php
 // db.php
-$host = 'localhost'; // Your database host
+$host = 'uyu7j8yohcwo35j3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'; // Your database host
 $db = 'warehouse_db'; // Your database name
-$user = 'root'; // Your database username
-$pass = ''; // Your database password
+$user = 'w2c6b1ecngwol0yg'; // Your database username
+$pass = 'sslzlob5862zrfiv'; // Your database password
 $charset = 'utf8mb4'; // Ensure this variable is defined
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
