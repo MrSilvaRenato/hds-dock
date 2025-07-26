@@ -248,6 +248,9 @@ function renderCardsForDate(date, bookingsByDate) {
     }
 
     bookings.forEach(booking => {
+        const col = document.createElement('div');
+        col.className = 'col-md-4 mb-4';
+
         const card = document.createElement('div');
         card.className = 'booking-card';
         card.innerHTML = `
@@ -262,7 +265,9 @@ function renderCardsForDate(date, bookingsByDate) {
                 <button class="cancel-btn" data-id="${booking.id}" data-booking='${JSON.stringify(booking)}'>Cancel</button>
             </div>
         `;
-        bookingList.appendChild(card);
+
+        col.appendChild(card);
+        bookingList.appendChild(col);
     });
 }
 

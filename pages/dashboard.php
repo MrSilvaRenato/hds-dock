@@ -51,9 +51,11 @@ if (!isset($_SESSION['user_id'])) {
 </div>
 
 
-  <div class="bookings-list" id="bookingList">
-    <!-- JavaScript will inject cards here -->
+ <div class="bookings-list container">
+  <div class="row" id="bookingList">
+    <!-- Cards will go here -->
   </div>
+</div>
 
 
     <div id="bookingModal" style="display:none;" class="modal">
