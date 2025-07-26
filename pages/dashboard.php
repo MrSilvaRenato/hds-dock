@@ -94,11 +94,7 @@ if (!isset($_SESSION['user_id'])) {
                 <select id="truckType" name="truck_type" required>
                     <option value="Rigid Truck">Rigid-Truck</option>
                     <option value="B-double">B-double</option>
-<<<<<<< HEAD
-                    <option value="Single-Trailer">Single Trailer</option>
-=======
-                    <option value="Single-Trailer">Single-Trailer</option>
->>>>>>> 0bb65f16750323accaa91ba0d9108094cedf99ec
+                    <option value="Single Trailer">Single Trailer</option>
                     <option value="Van">Refrigerated Van</option>
                 </select>
             </div>
